@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar Styling Start */
+.navbar {
+    padding: 10px; /* Adjust the padding as needed */
+    border-radius: 5px; /* Add border-radius for a curved look */
+}
+
+.navbar a {
+    color: white; /* Set the text color */
+    margin-right: 15px; /* Adjust the spacing between menu items */
+    text-decoration: none; /* Remove underlines from links */
+    transition: color 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+.navbar a:hover {
+    color: #FFD700; /* Set the text color on hover */
+}
+/* Navbar Styling End */ 
+.container h1 {
+    text-align: center;
+}
+
+.bg-nav{
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-result{
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.mt-100{
+    margin-top: 100px;
+}
+
+/* Style for the Predict button */
+.sub {
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 34px; /* Adjust font size as needed */
+    border-radius: 5px; /* Add border-radius for a rounded look */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add smooth transition effect */
+}
+
+.sub:hover {
+    background-color: #007BFF; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center;
+    padding: 10px;
+}
